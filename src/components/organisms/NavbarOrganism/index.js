@@ -7,9 +7,9 @@ const NavbarOrganism = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
             <div className="container">
                 <Link className="navbar-brand d-flex align-items-center" to="/">
-                    <img src={Tapin} className="img-fluid" style={{width:60}}/>
+                    <img src={Tapin} className="img-fluid" style={{width:60}} alt="Tapin"/>
                     <div className="ms-3">
-                        <h4 className="m-0">Desa Percontohan</h4>
+                        <h4 className="m-0 text-success"><strong>Desa Percontohan</strong></h4>
                         Kabupaten Tapin
                     </div>
                 </Link>
