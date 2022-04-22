@@ -1,12 +1,21 @@
 import React from "react";
-import { CarouselOrganism, NavbarOrganism } from "../../components";
+import { Link } from "react-router-dom";
+import { CarouselOrganism, MenuOrganism, NavbarOrganism } from "../../components";
 
 const Home = ()=> {
     return(
         <>
             <NavbarOrganism/>
             <CarouselOrganism/>
-            <h1 className="container">Beranda</h1>
+            <MenuOrganism/>
+          
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </>
     );
 }

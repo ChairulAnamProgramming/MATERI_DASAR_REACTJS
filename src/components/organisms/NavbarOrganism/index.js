@@ -4,7 +4,7 @@ import { Tapin } from '../../../assets';
 
 const NavbarOrganism = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
+        <nav className="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
             <div className="container">
                 <Link className="navbar-brand d-flex align-items-center" to="/">
                     <img src={Tapin} className="img-fluid" style={{width:60}} alt="Tapin"/>
