@@ -9,3 +9,6 @@
 .bg-gray{
   background-color: #F5F5F5;
 }
+.bg-dark60{
+  background-color: rgba(0, 0, 0, 0.5);
+}
